@@ -1,0 +1,6 @@
+INITIALIZE GIT PROJECT LOCALLY
+    git init
+
+ADD FILES TO COMMITMENT
+    git add .
+    git status
