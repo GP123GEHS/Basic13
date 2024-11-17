@@ -1,5 +1,13 @@
+CD INTO YOUR PROPER FOLDER LOCALLY
+    cd PATH_TO_PROJECT
+
 INITIALIZE GIT PROJECT LOCALLY
     git init
+
+CONNECT LOCAL REPOSITORY TO CLOUD REPOSITORY
+    git remote add origin cloudurl
+
+    example :  git remote add origin https://github.com/GP123GEHS/Basic13.git
 
 ADD FILES TO COMMITMENT
     git add .
@@ -7,3 +15,6 @@ ADD FILES TO COMMITMENT
 
 COMMIT FILES PREPARE FOR PUSH
     git commit -m "MESSAGE"
+    
+PUSH LOCAL CHANGES TO THE CLOUD
+    git push origin master
